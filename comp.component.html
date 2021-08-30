@@ -1,0 +1,99 @@
+<meta name="viewport" content="width=device-width , initial-scale=1">
+ <div class="row"> 
+<header class="head ">
+  <img src="../../assets/images/124.png" alt="Enterprise logo">
+  <marquee class="move" behavior="" direction="left" style="position: fixed;">
+    <p style="font-size: 80%;">Contact: 690-78-07-98 | ulrichsonna@gmail.com</p>
+  </marquee>
+  <!-- class="menu" -->
+  <!-- side nav -->
+  <a (click)="appear()" id="open" style="font-size: 285%; top: 10%; font-weight: lighter; font-family: cursive; ">
+    &Congruent; </a>
+
+  <div class="page" [class.newClass]="val" id="sidenav">
+    <div class="content">
+      <a [routerLink]="['/home']" (click)="close()" class="nav">Home</a>
+      
+<a class="nav" [routerLink]="['/register']" (click)="close()">Sign up</a>
+      
+      <a class="nav" [routerLink]="['/sideNav']" (click)="close()">sign in</a>
+
+      <a [routerLink]="['/services']" (click)="close()" class="nav">Our services</a>
+
+      <a [routerLink]="['/about']" (click)="close()" class="nav">About Us</a>
+
+      <a [routerLink]="['/payment']" (click)="close()" class="nav">Payments</a>
+      
+      
+      <a (click)="close()"  class="close">&times;</a>
+    </div>
+  </div>
+
+  <!-- Side nav -->
+  <!-- <div class="row"> -->
+  <div id="menu">
+
+    <!-- <span style="color: #fff;" class="side">&congruent;</span>-->
+    
+    <button class="btn" id="home" [routerLink]="['/home']"> Home</button>
+    <button class="btn " [routerLink]="['/services']">Services </button> <!-- (click)="services()"> -->
+    <button class="btn " [routerLink]="['/about']">About</button>
+    <button class="btn" id="pay" [routerLink]="['/payment']">Payment</button>
+    <button class="btn " id="signup" [routerLink]="['/register']">Sign up</button>
+    <!--Directing to signup form-->
+    
+
+
+    <!--Sign up form
+      <div class="signup" id="connect" class="col-lg-2">
+        <h1 class="close"> <a href="#" style="float: right;"> &times;</a></h1>
+        <div class="content">
+          
+          <form name="name" role="form">
+            <h2 style="vertical-align: top;">Sign up</h2>
+            <input class="form-control input-lg" type="text" placeholder="firstname" [(ngModel)]="firstname" name="name"><br>
+            <input class="form-control input-sm" type="text" placeholder="lastname"><br>                                
+            <input class="form-control input-am" type="email" placeholder="email"><br>
+            <input class="form-control" type="password" placeholder="password"><br>
+            <button (click)="login()">Signup</button>
+            <p>Already have an account, <a href="#login">signin</a></p> Connecting to signin form
+            <h2>Welcome {{ firstname }} </h2>
+            
+          </form>
+         
+        </div>
+        
+  </div> -->
+    <!--Sign up form-->
+
+    <!--Sign in form
+<div class="signin" id="login">
+  <h1 class="close"> <a href="#"> &times;</a></h1>
+  <div class="content">
+    <form name="name" role="form">
+      <h2 style="vertical-align: top;">Sign in</h2>
+                                     
+      <input class="form-control" type="email" placeholder="email"><br>
+      <input class="form-control" type="password" placeholder="password"><br>
+      <button >Login</button>
+      <p>Don't have an account yet, <a href="#connect">Signup</a></p> Connecting to signup form
+      
+      
+    </form>
+    
+  </div>
+  
+</div>
+Sign in form
+-->
+  </div>
+<!-- </div> -->
+
+
+  <!-- <div *ngIf="services">
+      <app-services></app-services>
+    </div>
+-->
+
+</header>
+</div>

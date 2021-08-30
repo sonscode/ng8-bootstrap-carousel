@@ -1,0 +1,373 @@
+  html body{
+    font-family: cursive;
+  }
+
+  *{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    }
+  h1, h2, h3{
+    font-family: cursive;
+  }
+      body{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: cursive;
+        
+      }
+      a{
+        text-decoration: none;
+        color: #fff;
+      }
+      img{
+        width: 8%;
+        height: 9vh;
+        border-radius: 50%;
+        float: left;
+        margin-left: 1%;
+        margin-top: 2%;
+      }
+      .move{
+        margin-top: 70px;
+        position: fixed;
+        color: #fff;
+      }
+     /* .logo{
+        width: 20%;
+        height: 50vh;
+        
+        
+      }*/
+      /*Header styling*/
+      .head {
+        background-color: #275285;
+        /* background-image: linear-gradient(to right,rgb(0, 102, 255), rgba(0, 195, 255, 1) ); */
+       /* align-self: center; */
+        box-sizing: border-box;
+        width: 100%; 
+        height: 17vh;
+        margin-top: -20px;
+        position: relative;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        margin-right: 0%;
+       
+      }
+      button{
+        background-color: #3d7ccf;
+        color: #90c5ed;
+        outline-color: #6393d3;
+        position: relative;
+        border: none;
+        font-size: 110%;
+        font-weight: lighter;
+        font-family:cursive;
+        color: rgb(255, 255, 255);
+        width: 17%;
+        height: auto;
+        margin-top: 50px;
+        margin: 1%;
+        /*border-radius: 5%;*/
+        transition-duration: .5s;
+        cursor: pointer;
+        border-radius: 50px;
+      }
+      button:hover{
+        background: #6ab9f5;
+      }
+      .side{
+        visibility:collapse;
+      }
+      #menu{
+        margin-top: 30px;
+        margin-left: 20%;
+        position: relative;
+      }
+      /*Styling the signup form*/
+      .signup{
+        display: table;
+        top: -150%;
+        right: 0;
+        width: 50%;
+        height: 90%;
+        position: fixed;
+        transition-duration: .5s;
+        background: rgba(0, 0, 0, 0.7);
+       
+      }
+      .signup:target{
+       top: 0;
+      }
+      .content{
+        display: table-cell; /*Display on halfscreen*/
+        vertical-align: middle;
+        text-align: center;
+        color: #fff;
+      }
+      .close{
+        text-align: right;
+        
+        margin-top: 0;
+        margin-left: 80px;
+        font-size: 70px;
+        font-family: serif;
+        font-weight: lighter;
+      }
+      /*Styling the signup*/
+
+      /*Styling the signin*/
+      .signin{
+        display: table;
+        top: -150%;
+        right: 0;
+        width: 50%;
+        height: 90%;
+        position: fixed;
+        transition-duration: .5s;
+        background: rgba(0, 0, 0, 0.7);
+       
+      }
+      .signin:target{
+       top: 0;
+      }
+      input{
+        margin: 2%;
+        width: 40%;
+        height: 20%;
+        border: none;
+        color: gyay;
+        font-family: cursive;
+        font-size: 150%;
+        font-weight: lighter;
+      }
+      p{
+        font-family: cursive;
+        font-size: 150%;
+        font-weight: lighter;
+      }
+      #open{
+        display: none;
+      }
+      .page{
+        display: none;
+      }
+      /*Signup era*/
+
+      /*This block styles only the header*/
+
+      /*Styling the main part*/
+     /* .main{
+        width: 100%;
+        height: 150vh;
+
+      }
+
+      /*This block styles only the main*/
+
+      /*Styling the footer*/
+      /* .foot{
+        background: #ffcc11;
+        width: auto;
+        height: 20%;
+      }
+      */
+      @media only screen and (max-width: 678px) {
+       
+        #open{
+          display:inline-block;
+           position: relative; 
+          margin: 10px;
+          margin-left: 7%;
+          margin-top: 2%;
+          color: #fff;
+          
+        }
+
+        /* .menu{
+          color: #fff;
+          font-size: 100%;
+        
+          } */
+    
+    .page{
+          display: block;
+          transition-duration: .5s;
+          background-color: rgba(0,0,0150,.6);
+          overflow-wrap: normal;
+          overflow-y: scroll;
+          left: -250%;
+          margin-top: 5px;
+          transition-delay: 0s;
+          height: 77vh;
+          width: 78%;
+          position: relative;
+          box-sizing: content-box;
+          }
+    .newClass {
+       left: 0; /* make the lightbox cover the entire page */
+    }
+    /* .page:hover{
+          width: 50%;
+          height: 75vh;
+        
+          } */
+     .nav, .close{
+          color: #fff;
+          font-weight: lighter;
+          font-size: 135%;
+          text-decoration: none;
+          margin-left: 3%;
+          
+          outline: none;
+          background-color: default;
+          }
+    .nav{
+          margin-left: 20px;
+          margin-top: 2%;
+          position: relative;
+          margin: 14px;
+          
+          }
+    .close{
+          top:-10px;
+          left: 80%;
+          position: absolute;
+          font-size: 250%;
+          position: absolute;
+          }
+
+        side nav 
+
+
+        .head {
+          width: 100%;
+          height: 5vh;
+          margin-top: 0;
+          position: fixed;
+          border-bottom-right-radius: 20px;
+          border-bottom-left-radius: 20px;
+          margin: 0;
+          /* margin-right: 0; */
+          box-sizing: content-box;
+        }
+        button{
+        position: relative;
+          border: #fff;
+          font-size: 95%;
+          font-weight: lighter;
+          font-family: cursive;
+          color: #fff;
+          width: auto;
+          height: auto;
+          
+          margin: 7%;
+         
+          transition-duration: .5s;
+          cursor: pointer;
+          border-radius: 50px;
+          
+          padding: 2px 3% 02px;
+         
+        }
+        .side{
+          visibility: visible;
+          font-size: auto;
+          color: #fff;
+          position: absolute;
+          font-size: 150%;
+          cursor: pointer;
+        }
+       
+        #menu{
+          margin-left: 15%;
+          position: absolute;
+          
+          display: flex;
+          top: 2%;
+        }
+
+        img{
+          display: none;
+        }
+
+     #pay, #signup{
+          display: none;
+        }
+
+       
+
+        .move{
+         display: none;
+        }
+
+        
+
+      }
+
+     /* @media only screen and (min-width: 760px) {
+        button{
+          border: none;
+          font-size: 110%;
+          font-weight: lighter;
+          font-family:cursive;
+          color: rgb(75, 74, 74);
+          width: 17%;
+          height: auto;
+          padding-top: -25px;
+          margin: 1%;
+          border-radius: 5px;
+          transition-duration: .5s;
+          cursor: pointer;
+          border-radius: 50px;
+          
+        }
+
+      } 
+      codevo*/
+       @media only screen and(max-height: 300px) {
+        
+
+        button{
+         
+          position: relative;
+          border: none;
+          font-size: 110%;
+          font-weight: lighter;
+          font-family:cursive;
+          color: rgb(255, 255, 255);
+          width: 17%;
+          height: auto;
+          margin-top: 0px;
+          margin: 1%;
+          border-radius: 5%;
+          transition-duration: .5s;
+          cursor: pointer;
+          border-radius: 50px;
+        }
+
+        .head {
+          background-color: #275285;
+           background-image: linear-gradient(to right,rgb(0, 102, 255), rgba(0, 195, 255, 1) ); 
+          align-self: center; 
+          box-sizing: border-box;
+          width: 100%; 
+          height: 20vh;
+          margin-top: 0px;
+          position: relative;
+          border-bottom-right-radius: 20px;
+          border-bottom-left-radius: 20px;
+          margin-right: 0%;
+         
+        }
+
+        #menu{
+          margin-left: 15%;
+          position: relative;
+          
+          display: flex;
+          top: 0%;
+        }
+        
+      } 
